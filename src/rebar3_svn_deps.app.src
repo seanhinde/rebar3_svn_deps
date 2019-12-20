@@ -1,0 +1,15 @@
+{application, rebar3_svn_deps,
+ [{description, "A rebar plugin to specify subversion dependencies."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Sean Hinde"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/seanhinde/rebar3_svn_deps"}]}
+ ]}.
